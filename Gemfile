@@ -39,6 +39,14 @@ group :development do
   gem "rerun"
 
   gem "pry"
+  
+  gem "puma"
+ 
+ gem "thin"
+ 
+ gem "falcon"
+ 
+ gem "webrick"
 end
 
 # These gems will only be used when we are running tests
